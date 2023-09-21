@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration <Form></Form></title>
+</head>
+
+<body>
+    <center><h1>Student Registration Form</h1></center>
+    <style>
+        body {
+            background-color: rgb(107, 107, 245);
+        }
+
+        table {
+            border-style: solid;
+            border-collapse: collapse;
+            border-color: white;
+            width: 50%;
+        }
+
+        th,
+        td {
+            border-style: solid;
+            border-color: white;
+
+        }
+    </style>
+    </head>
+
+    <body>
+        <form style=" text-align: justify; border-style: double;padding: 1%;">
+            <label>FIRST NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"> (max 30 characters a-z and A-Z) <br><br>
+
+            <label>LAST NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"> (max 30 characters a-z and A-Z) <br><br>
+
+            <label>DATE OF BIRTH:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+            <input type="date"><br><br>
+
+            <label>EMAIL ID:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" placeholder="ex.myname@gmail.com"><br><br>
+
+            <label>MOBILE NUMBER:</label>&nbsp;&nbsp;&nbsp;
+            <input type="tel" placeholder="+91 00000 00000"> (10 Digit Number) <br><br>
+
+            <label>GENDER:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="rad1" name="Gender">
+            <label for="rad1">Male</label>
+            <input type="radio" id="rad2" name="Gender">
+            <label for="rad2">Female</label><br><br>
+
+            <label>ADDRESS:</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea cols="20" rows="4"></textarea><br><br>
+
+            <label>CITY:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"> (max 30 characters a-z and A-Z) <br><br>
+
+            <label>PIN CODE:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="000000"> (6 Digit number)<br><br>
+
+            <label>STATE:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"> (max 30 characters a-z and A-Z) <br><br>
+
+            <label>COUNTRY:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"><br><br>
+
+            <label>HOBBIES:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Drawing</label>
+            <input type="checkbox">
+            <label>Taekwondo</label>
+            <input type="checkbox">
+            <label>Dancing</label>
+            <input type="checkbox">
+            <label>Gym</label>
+            <input type="checkbox"><br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Others</label>
+            <input type="checkbox">
+            <input type="text"><br><br>
+
+            <label>Qaulification:</label><br>
+            &nbsp;
+            <table>
+                <tr>
+                    <thead>
+                        <th>SI.NO.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of passing</th>
+                    </thead>
+                </tr>
+
+                <tbody style="text-align: right;">
+                    <tr>
+                        <td>1</td>
+                        <td>Class x</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+            </table><br>
+
+            <label>COURSES APPLIED FOR:</label>&nbsp;&nbsp;&nbsp;
+            <label for="rad1">BBA</label>
+            <input type="radio" id="rad1" name="course">
+            <label for="rad2">B.com</label>
+            <input type="radio" id="rad2" name="course">
+            <label for="rad3">B.com CA</label>
+            <input type="radio" id="rad3" name="course">
+            <label for="rad4">BCA</label>
+            <input type="radio" id="rad4" name="course">
+         </center>
+            <center><br><br><button type="button">Submit</button>&nbsp;&nbsp;
+            <button type="button">Reset</button></center>
+           
+
+        </form>
+
+    </body>
+
+</html>
