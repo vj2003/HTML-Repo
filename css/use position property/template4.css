@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/many-kids-climbing-up-rope_1308-2794.jpg?w=996&t=st=1693133680~exp=1693134280~hmac=1e5c658c36ea7b558311a59aad3a142f104f0100cb82b26f0b9b352599f653a9);
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+    
+}
+.right{
+    margin-left: 465px;
+}
+.right1{
+    margin-left: 120px;
+}
+img{
+    margin-left: 50px;
+}
+.logo{
+    border: 2px solid;
+    background-color: gray;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 800px;
+    word-spacing: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+a:hover{
+    color: red;
+}
+i{
+    padding-top: 8px;
+}
+.one{
+    color:red;
+    margin-left: 280px;
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.two{
+    font-size: 30px;
+    margin-left: 280px;
+    font-weight: bolder;
+    font-size: 33px;
+    color: darkcyan;
+}
+.three{
+    padding-top: 8px;
+    margin-left: 280px;
+    font-weight: bolder;
+    font-size: 23px;
+    color: midnightblue;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first::first-letter {
+            color: aqua;
+            font-size: 40px;
+        }
+
+        .clr::first-line {
+            color: burlywood;
+            text-shadow: 2px 3px 2px greenyellow;
+            font-size: xx-large;
+        }
+
+        h1::after {
+            color: blueviolet;
+            font-size: xx-large;
+            content: 'class';
+        }
+
+        h1::before {
+            color: brown;
+            font-size: xx-large;
+            content: 'The';
+        }
+
+        ::marker {
+            color: cornflowerblue;
+            font-size: xx-large;
+        }
+
+        ::selection { 
+            color: crimson;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="first">
+        <h1>Lorem</h1>
+        <p class="clr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore nulla placeat, iusto totam
+            itaque quaerat tempore nobis asperiores, magnam consequuntur magni exercitationem.<br> Doloremque magni
+            minus placeat expedita alias culpa corporis.</p>
+    </div>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+
+    </ol>
+    <ul type="square">
+        <li>one two</li>
+        <li>two three</li>
+        <li>three four</li>
+
+    </ul>
+</body>
+
+</html>

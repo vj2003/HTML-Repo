@@ -1,0 +1,125 @@
+.font{
+    text-align: center; 
+    word-spacing: 5px;   
+}
+i{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50px; 
+    margin-top: 20px;
+}
+.all{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/04/02/Nature-Background-Graphics-66003217-1.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.one{
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 40px;
+    height: 40px;
+    
+}
+.two{
+    color:green;
+    margin-top: 1px;
+}
+.two2{
+    margin-left: 500px;
+    margin-top: 8px;
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: overline 5px greenyellow;   
+}
+.cen{
+    color: white;
+    width: 250px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 600px;
+
+}
+button{
+    background-color:greenyellow;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.all1{
+    width: 400px;
+    text-align: center;
+    margin-left: 550px;
+}
+.all2{
+   display: flex;
+   flex-wrap: wrap;
+   width: 1300px;
+   justify-content: space-evenly;
+   margin-left: 100px;
+
+}
+.head{
+    text-decoration: underline;
+}
+.font1{
+    background-color: darkcyan;
+    width: 250px;
+    height: 200px;
+}
+.font2{
+    background-color: violet;
+    width: 250px;
+    height: 200px;
+}
+.font3{
+    background-color: khaki;
+    height: 200px;
+    width: 250px;
+}
+.font4{
+    background-color: pink;
+    width: 250px;
+    height: 200px;
+}
+#end{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid white; 
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.course1{
+    width: 400px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-between;
+    margin-left: 135px;
+    row-gap: 50px;
+    column-gap: -20px;
+    
+
+}
+.images{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+i:hover{
+    background-color: chartreuse;
+}

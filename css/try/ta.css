@@ -1,0 +1,21 @@
+th,td{
+    
+    border: 3px;
+    padding: 30px;
+}
+table{
+    
+    width: 25px;
+}
+tbody tr:nth-child(odd){
+    background-color: crimson;
+}
+tbody tr:nth-child(even){
+    background-color: chartreuse;
+}
+th{
+    background-color: darksalmon;
+}
+tbody tr:nth-child(4){
+    background-color: darkgreen;
+}

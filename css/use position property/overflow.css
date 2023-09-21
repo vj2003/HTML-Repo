@@ -1,0 +1,27 @@
+.one{
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+    background-color: aqua;
+}
+.two{
+    height: 200px;
+    width: 300px;
+    overflow: scroll;
+    background-color: aquamarine;
+}
+.three{
+    height: 200px;
+    width: 300px;
+    overflow: visible;
+    background-color: burlywood;
+}
+.four{
+    height: 200px;
+    width: 300px;
+    overflow:hidden;
+    background-color: teal;
+}
+.five{
+    
+}

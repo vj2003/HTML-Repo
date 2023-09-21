@@ -1,0 +1,93 @@
+.left {
+    margin-left: 170px;
+    width: 30%;
+}
+
+.right {
+    width: 30%;
+    float: right;
+    margin-top: -50px;
+}
+
+.line {
+    word-spacing: 50px;
+    margin-left: 150px;
+    margin-top: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pn {
+    float: right;
+    color: blue;
+    margin-top: -10px;
+    margin-right: 40px;
+}
+
+a:hover {
+    text-decoration: overline 4px solid blue;
+}
+
+.abc {
+    height: 50px;
+}
+
+.con {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: -500px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: -20px;
+}
+
+.con1 {
+    font-size: 25px;
+}
+
+button {
+    background-color:orangered;
+    color: white;
+    padding: 10px;
+}
+
+.one {
+    background-color: orange;
+   
+}
+
+.two {
+    background-color: yellowgreen;
+
+}
+
+.three {
+    background-color: rgb(40, 40, 168);
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.all2{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 300px);
+    color:black;
+    justify-content: center;
+    margin-top: 50px;
+}

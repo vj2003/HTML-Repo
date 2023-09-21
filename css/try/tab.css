@@ -1,0 +1,22 @@
+th,td{
+    border: 2px solid black; 
+    text-align: center;
+    padding: 30px;
+}
+table{
+    /* border-collapse: collapse; */
+    width: 25%;
+    /* background-color: burlywood; */
+}
+.tim{
+    background-color: aqua;
+}
+tbody tr:nth-child(odd){
+    background-color: chocolate;
+}
+tbody tr:nth-child(even){
+    background-color: chartreuse;
+}
+th{
+    background-color: teal;
+}

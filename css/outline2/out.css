@@ -1,0 +1,101 @@
+.one{
+    outline: solid;
+    outline-color: palevioletred;
+    width: 900px;
+    height: 30px; 
+    outline-width: 8px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+}
+
+.two {
+    outline-style: dashed;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+     margin: 40px 40px;
+}
+
+.three {
+    outline-style: dotted;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+}
+
+.four {
+    outline-style: double;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+}
+
+.five {
+    outline-style: groove;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px; 
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+
+}
+
+.six {
+    outline-style: none;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+}
+
+.seven {
+    outline-style: ridge;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    margin: 40px 40px;
+}
+
+.eight {
+    outline-style: inset;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    
+    margin: 40px 40px;
+}
+
+.nine {
+    outline-style: outset;
+    outline-color: palevioletred;
+    height: 30px;
+    width: 900px;
+    outline-width: 10px;
+    padding-left: 13px;
+    font-size: small;
+    
+    margin: 40px 40px;
+}

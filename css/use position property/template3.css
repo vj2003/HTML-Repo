@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/469/556/944/adults-barber-barber-shop-commerce.jpg);
+    background-size: 1280px 700px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom lightgreen);
+    
+}
+.big{
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.first{
+    font-size: 90px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 360px;
+    margin-top: 200px;
+    color: whitesmoke;
+}
+.second{
+    font-style: italic;
+    margin-left: 450px;
+    margin-top: -70px;
+    color: whitesmoke;
+}
+.cl{
+    background-color: whitesmoke;
+    color: black;
+    width: 90px;
+    height: 30px;
+    border: 2px;
+}
+.cl:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cl1{
+    background-color: black;
+    color: whitesmoke;
+    width: 90px;
+    height: 30px;
+    border: 2px;
+}
+.cl1:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.all{
+    margin-left: 450px;
+    margin-top: 29px;
+    word-spacing: 12px;
+}
+
